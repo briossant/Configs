@@ -41,6 +41,7 @@ nnoremap <C-n> :! clear && python %<CR>
 
 call plug#begin()
 
+Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
