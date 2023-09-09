@@ -17,7 +17,7 @@ first update .vimrc with to one in this repo
 * clang-tools (only if ```:CocCommand clangd.install``` dont work)
 
 
-#### to run in vim
+#### Commands to run in vim
 
 * install the vim plugins : ```:PlugInstall```
 
