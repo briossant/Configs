@@ -14,7 +14,7 @@ first update .vimrc with to one in this repo
 * vim plug (https://github.com/junegunn/vim-plug) : ```curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim ```
 
-* clang-tools
+* clang-tools (only if ```:CocCommand clangd.install``` dont work)
 
 
 #### to run in vim
