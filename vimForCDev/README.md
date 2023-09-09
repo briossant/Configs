@@ -27,7 +27,7 @@ first update .vimrc with to one in this repo
 
 ## Usage
 
-#### Completion
+### Completion
 
 The completion menu usualy appear automaticaly, the proposition will depends of the file extention. 
 The letters in brackets next to the code proposale indicates the source of it ; 
