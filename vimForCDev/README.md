@@ -21,7 +21,7 @@ first update .vimrc with to one in this repo
 
 * install the vim plugins : ```:PlugInstall```
 
-* install coc-nvim plugins : ```:CocInstall coc-json coc-tsserver coc-tabnine coc-clangd```
+* install coc-nvim plugins : ```:CocInstall coc-json coc-tsserver coc-tabnine coc-clangd``` + ```coc-pyright``` for python
 
 * setup clangd : ```:CocCommand clangd.install``` you need to be in a .c file to use it
 
