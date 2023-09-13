@@ -14,7 +14,9 @@ first update .vimrc with to one in this repo
 * vim plug (https://github.com/junegunn/vim-plug) : ```curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim ```
 
-* clang-tools (only if ```:CocCommand clangd.install``` dont work)
+* clang-tools (only if ```:CocCommand clangd.install``` doesn't work)
+
+* Nodejs >= 14.14
 
 
 #### Commands to run in vim
