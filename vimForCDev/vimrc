@@ -1,4 +1,14 @@
 
+call plug#begin()
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
+call plug#end()
+
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -21,6 +31,7 @@ set smartindent
 set smarttab
 set softtabstop=4
 set laststatus=2
+set ttimeout ttimeoutlen=50
 
 set ruler
  
@@ -28,14 +39,6 @@ set undolevels=1000
 set backspace=indent,eol,start
 
 
-call plug#begin()
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'itchyny/lightline.vim'
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
-
-call plug#end()
 
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
