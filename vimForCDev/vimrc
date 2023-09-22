@@ -5,6 +5,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'frazrepo/vim-rainbow'
 
 call plug#end()
 
@@ -38,6 +39,7 @@ set ruler
 set undolevels=1000
 set backspace=indent,eol,start
 
+let g:rainbow_active = 1
 
 
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
