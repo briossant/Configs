@@ -4,6 +4,7 @@ A vim config for C development.
 
 Includes auto completion with IA power thanks to https://github.com/codota/tabnine-vim and https://github.com/neoclide/coc.nvim
 
+Add ```setxkbmap -option caps:escape``` to you're bashrc to remap caplock to escape.
 
 ## setup vim 
 
