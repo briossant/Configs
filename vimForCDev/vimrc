@@ -9,6 +9,8 @@ Plug 'frazrepo/vim-rainbow'
 
 call plug#end()
 
+" map ; to :
+noremap ; :
 
 set tabstop=4
 set shiftwidth=4
