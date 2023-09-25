@@ -3,6 +3,7 @@ call plug#begin()
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'frazrepo/vim-rainbow'
@@ -11,6 +12,15 @@ call plug#end()
 
 " map ; to :
 noremap ; :
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
+" Highlight current line
+set cursorline
+
+" Allow mouse use in vim
+set mouse=a
 
 set tabstop=4
 set shiftwidth=4
