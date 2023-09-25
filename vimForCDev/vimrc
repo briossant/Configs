@@ -6,6 +6,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'wakatime/vim-wakatime'
 Plug 'frazrepo/vim-rainbow'
 
 call plug#end()
