@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-./*/install.sh
+for p in */install.sh ; do 
+	./$p
+done
