@@ -14,6 +14,17 @@ call plug#end()
 " map ; to :
 noremap ; :
 
+" unbind arrows to become the vim master
+noremap <Up> :echo "Ne soit pas un goret!"<CR>
+noremap <Down> :echo "Ne soit pas un goret!"<CR>
+noremap <Left> :echo "Ne soit pas un goret!"<CR>
+noremap <Right> :echo "Ne soit pas un goret!"<CR>
+
+noremap <C-Up> :resize +2<CR>
+noremap <C-Down> :resize -2<CR>
+noremap <C-Left> :vertical resize +2<CR>
+noremap <C-Right> :vertical resize -2<CR>
+
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme='base16_eighties'
