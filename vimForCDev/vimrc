@@ -20,6 +20,11 @@ noremap <Down> :echo "Ne soit pas un goret!"<CR>
 noremap <Left> :echo "Ne soit pas un goret!"<CR>
 noremap <Right> :echo "Ne soit pas un goret!"<CR>
 
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+
 noremap <C-Up> :resize +2<CR>
 noremap <C-Down> :resize -2<CR>
 noremap <C-Left> :vertical resize +2<CR>
