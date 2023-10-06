@@ -19,7 +19,7 @@ first update .vimrc with to one in this repo
 
 * Nodejs >= 14.14
 
-* fonts-powerline for vim-airline to properly render 
+* fonts-powerline (https://github.com/powerline/fonts) for vim-airline to properly render 
 
 
 #### Commands to run in vim
