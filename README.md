@@ -1,7 +1,9 @@
 
 # Configs
 
-Some of my configs for linux & softwares.
+#### my config are now managed using home-manager, see [vite-mon-vim](https://github.com/briossant/vite-mon-vim) for vim
+
+Some of my configs (old) for linux & softwares.
 
 Each config is stored in a seperate directory.
 
